@@ -236,14 +236,15 @@
 						"top": "0"
 					},
 					"padding": {
-						"bottom": "var(--wp--preset--spacing--40)",
-						"top": "var(--wp--preset--spacing--40)"
+						"bottom": "0",
+						"top": "0"
 					}
 				},
 				"typography": {
-					"fontSize": "var(--wp--preset--font-size--large)",
+					"fontSize": "var(--wp--preset--font-size--medium)",
 					"fontStyle": "normal",
-					"fontWeight": "500"
+					"fontWeight": "500",
+					"lineHeight": "1.3"
 				}
 			},
 			"core/site-title": {
