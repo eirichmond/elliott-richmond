@@ -1,3 +1,10 @@
+<?php
+/**
+ * Title: front-page
+ * Slug: elliott-richmond/front-page
+ * Inserter: no
+ */
+?>
 <!-- wp:template-part {"slug":"header"} /-->
 
 <!-- wp:group {"layout":{"type":"constrained"}} -->
@@ -5,45 +12,45 @@
 <div class="wp-block-group alignfull has-grey-background-color has-background" style="padding-top:var(--wp--preset--spacing--60);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--60);padding-left:var(--wp--preset--spacing--40)"><!-- wp:columns {"align":"wide","style":{"spacing":{"blockGap":{"top":"var:preset|spacing|60","left":"var:preset|spacing|60"}}}} -->
 <div class="wp-block-columns alignwide"><!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"className":"has-normal-font-size","style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|40"}}},"fontSize":"large"} -->
-<h2 class="wp-block-heading has-normal-font-size has-large-font-size" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--40)"><strong>WordPress</strong> meetup organiser</h2>
+<h2 class="wp-block-heading has-normal-font-size has-large-font-size" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--40)"><?php esc_html_e( '<strong>WordPress</strong> meetup organiser', 'elliott-richmond' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">I organise the <a href="https://www.meetup.com/cheltenham-wordpress-meetup/" data-type="link" data-id="https://www.meetup.com/cheltenham-wordpress-meetup/" target="_blank" rel="noreferrer noopener">WordPress meetup in Cheltenham, UK</a>, helping to connect and foster a local community of WordPress enthusiasts. My goal as a meetup organizer is to create a welcoming and inclusive environment where individuals of all skill levels can come together to:</p>
+<p class="has-medium-font-size"><?php esc_html_e( 'I organise the <a href="https://www.meetup.com/cheltenham-wordpress-meetup/" data-type="link" data-id="https://www.meetup.com/cheltenham-wordpress-meetup/" target="_blank" rel="noreferrer noopener">WordPress meetup in Cheltenham, UK</a>, helping to connect and foster a local community of WordPress enthusiasts. My goal as a meetup organizer is to create a welcoming and inclusive environment where individuals of all skill levels can come together to:', 'elliott-richmond' ); ?></p>
 <!-- /wp:paragraph -->
 
 <!-- wp:list -->
 <ul class="wp-block-list"><!-- wp:list-item {"fontSize":"medium"} -->
-<li class="has-medium-font-size">Share knowledge</li>
+<li class="has-medium-font-size"><?php esc_html_e( 'Share knowledge', 'elliott-richmond' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item {"fontSize":"medium"} -->
-<li class="has-medium-font-size">Exchange ideas</li>
+<li class="has-medium-font-size"><?php esc_html_e( 'Exchange ideas', 'elliott-richmond' ); ?></li>
 <!-- /wp:list-item -->
 
 <!-- wp:list-item {"fontSize":"medium"} -->
-<li class="has-medium-font-size">Learn from each other</li>
+<li class="has-medium-font-size"><?php esc_html_e( 'Learn from each other', 'elliott-richmond' ); ?></li>
 <!-- /wp:list-item --></ul>
 <!-- /wp:list --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"className":"has-normal-font-size","style":{"typography":{"lineHeight":"1.6"},"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|40"}}},"fontSize":"large"} -->
-<h2 class="wp-block-heading has-normal-font-size has-large-font-size" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--40);line-height:1.6"><strong>Theme</strong> &amp; <strong>plugin</strong> developer</h2>
+<h2 class="wp-block-heading has-normal-font-size has-large-font-size" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--40);line-height:1.6"><?php esc_html_e( '<strong>Theme</strong> &amp; <strong>plugin</strong> developer', 'elliott-richmond' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">I'm a <a href="https://profiles.wordpress.org/erichmond/" target="_blank" rel="noreferrer noopener">WordPress</a> core contributor, theme developer, plugin developer, pattern author and all-around WordPress &amp; WooCommerce enthusiast. I also create <a href="https://www.youtube.com/@elliottrichmondwp" target="_blank" rel="noreferrer noopener">educational YouTube videos for WordPress</a> and WooCommerce enthusiasts, where I share tips, tutorials, and insights to help others deepen their understanding and skills.</p>
+<p class="has-medium-font-size"><?php esc_html_e( 'I\'m a <a href="https://profiles.wordpress.org/erichmond/" target="_blank" rel="noreferrer noopener">WordPress</a> core contributor, theme developer, plugin developer, pattern author and all-around WordPress &amp; WooCommerce enthusiast. I also create <a href="https://www.youtube.com/@elliottrichmondwp" target="_blank" rel="noreferrer noopener">educational YouTube videos for WordPress</a> and WooCommerce enthusiasts, where I share tips, tutorials, and insights to help others deepen their understanding and skills.', 'elliott-richmond' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column -->
 
 <!-- wp:column -->
 <div class="wp-block-column"><!-- wp:heading {"className":"has-normal-font-size","style":{"spacing":{"margin":{"top":"0","bottom":"var:preset|spacing|40"}}},"fontSize":"large"} -->
-<h2 class="wp-block-heading has-normal-font-size has-large-font-size" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--40)"><strong>Square One Software</strong></h2>
+<h2 class="wp-block-heading has-normal-font-size has-large-font-size" style="margin-top:0;margin-bottom:var(--wp--preset--spacing--40)"><?php esc_html_e( '<strong>Square One Software</strong>', 'elliott-richmond' ); ?></h2>
 <!-- /wp:heading -->
 
 <!-- wp:paragraph {"fontSize":"medium"} -->
-<p class="has-medium-font-size">The business side of my work as a professional web developer. Alongside my wife and business partner at <a href="https://squareone.software" target="_blank" rel="noreferrer noopener">Squareone Software</a>, we offer tailored web development and application development. With decades of experience, we help businesses achieve their digital goals by delivering unique and functional solutions while maintaining a client-centred approach. Our focus is on quality, innovation, and results.</p>
+<p class="has-medium-font-size"><?php esc_html_e( 'The business side of my work as a professional web developer. Alongside my wife and business partner at <a href="https://squareone.software" target="_blank" rel="noreferrer noopener">Squareone Software</a>, we offer tailored web development and application development. With decades of experience, we help businesses achieve their digital goals by delivering unique and functional solutions while maintaining a client-centred approach. Our focus is on quality, innovation, and results.', 'elliott-richmond' ); ?></p>
 <!-- /wp:paragraph --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
@@ -93,10 +100,12 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"style":{"spacing":{"padding":{"right":"var:preset|spacing|40","left":"var:preset|spacing|40","top":"var:preset|spacing|50","bottom":"var:preset|spacing|50"}}},"layout":{"type":"constrained"}} -->
-<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
+<div class="wp-block-group" style="padding-top:var(--wp--preset--spacing--50);padding-right:var(--wp--preset--spacing--40);padding-bottom:var(--wp--preset--spacing--50);padding-left:var(--wp--preset--spacing--40)"><!-- wp:group {"align":"wide","layout":{"type":"constrained"}} -->
+<div class="wp-block-group alignwide"><!-- wp:group {"align":"wide","layout":{"type":"default"}} -->
 <div class="wp-block-group alignwide"><!-- wp:paragraph {"style":{"typography":{"fontStyle":"italic","fontWeight":"400"}},"fontFamily":"petrona"} -->
-<p class="has-petrona-font-family" style="font-style:italic;font-weight:400">Note: This site is built using WordPress Gutenberg blocks in a blocktheme, with full site editing enabled. </p>
+<p class="has-petrona-font-family" style="font-style:italic;font-weight:400"><?php esc_html_e( 'Note: This site is built using WordPress Gutenberg blocks in a blocktheme, with full site editing enabled. ', 'elliott-richmond' ); ?></p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
 
